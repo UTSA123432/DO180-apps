@@ -1,3 +1,6 @@
 <?php
-print "Hello, World! php version is " . PHP_VERSION . "\n";
+
+print_r("Hello world!");
+$currentDate = date();
+print_r($currentDate);
 ?>
