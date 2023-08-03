@@ -1,6 +1,6 @@
 <?php
 
 print_r("Hello world!");
-$currentDate = date();
+$currentDate = time();
 print_r($currentDate);
 ?>
