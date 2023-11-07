@@ -1,3 +1,9 @@
 <?php
-print "Hello, World! php version is " . PHP_VERSION . "\n";
+
+print_r("Hello world!");
+$currentDate = time();
+print_r($currentDate);
+print_r("U");
+$test=getenv('test');
+print_r($test);
 ?>
